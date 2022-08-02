@@ -5,6 +5,6 @@ logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 
-@app.router('/')
+@app.route('/')
 def index():
-    return '<h1>Hello men</h1>'
+    return '<h1>Hello men img="1.jpg"</h1>'
